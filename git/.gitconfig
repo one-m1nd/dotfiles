@@ -1,0 +1,7 @@
+[pull]
+    rebase = true
+[core]
+    excludesfile = ~/.gitignore_global
+# https://git-scm.com/docs/git-config#_includes
+[includeIf "gitdir:~/dev/mind-zero/"]
+    path = "~/.gitconfig-mind-zero"
