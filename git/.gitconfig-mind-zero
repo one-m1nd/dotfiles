@@ -1,0 +1,5 @@
+[user]
+    name = mind-zero
+    email = vhector.1337@gmail.com
+[pull]
+    rebase = true
