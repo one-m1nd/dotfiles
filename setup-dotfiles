@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+
+set -euxo pipefail
+
+repo_dir="$HOME/.dotfiles"
+
+if [[ $(pwd -P) != "$repo_dir" ]]; then
+  echo "Run this script from $repo_dir"
+  exit 1
+fi
+
+# === config that goes in ~/.config
+config_dir="$HOME/.config"
+mkdir -p "$config_dir"
+pushd "$config_dir"
+
+ln -s ../.dotfiles/config/ghostty ./
+ln -s ../.dotfiles/config/ranger ./
+
+popd
+
+# === config that goes in ~
+pushd "$HOME"
+
+ln -s .dotfiles/git/.gitconfig ./
+ln -s .dotfiles/git/.gitignore_global ./
+ln -s .dotfiles/vim/.vimrc ./
+
+popd
+
+echo "Setup complete ^_^"

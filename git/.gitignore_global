@@ -1,9 +1,14 @@
 *~
 .DS_Store
 gem_graph.png
-vendor
 TAGS
 .idea/
-index.html
 .vscode
+
+# Ruby related output
+pkg/
+coverage/
+vendor/
 test_output.log
+index.html
+.rspec_status

@@ -1,3 +1,0 @@
-I mostly use vim for commit messages...
-
-managed with [vundle](https://github.com/VundleVim/Vundle.vim)

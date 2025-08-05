@@ -3,5 +3,24 @@
 	email = vhector.1337@gmail.com
 [pull]
     rebase = true
+[fetch]
+    prune = true
 [core]
+    editor = vim
     excludesfile = ~/.gitignore_global
+[url "git@github.com:"]
+	insteadOf = "https://github.com/"
+[merge]
+        conflictstyle = zdiff3
+[branch]
+        sort = -committerdate
+[diff]
+        algorithm = histogram
+[init]
+        defaultBranch = main
+[transfer]
+        fsckobjects = true
+[fetch]
+        fsckobjects = true
+[receive]
+        fsckObjects = true
