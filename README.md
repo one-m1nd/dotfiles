@@ -24,3 +24,6 @@ git config
 
 ## vim
 vim config, powered via [vundle](https://github.com/VundleVim/Vundle.vim)
+
+## TODO
+Manage symlinks with [stow](https://www.gnu.org/software/stow/manual/stow.html)
