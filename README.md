@@ -1,5 +1,7 @@
 # Dotfiles
 
+What it looks like:
+
 ![sample screenshot](images/screenshot.png)
 
 > [!IMPORTANT]
