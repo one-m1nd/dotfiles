@@ -1,5 +1,11 @@
 # Dotfiles
 
+> [!IMPORTANT]
+> Setup `zsh` config first
+> [my prezto fork](https://github.com/one-m1nd/prezto)
+
+---
+
 ```bash
 git clone git@github.com:one-m1nd/dotfiles.git "$HOME/.dotfiles"
 
