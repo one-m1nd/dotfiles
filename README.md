@@ -1,5 +1,7 @@
 # Dotfiles
 
+![sample screenshot](images/screenshot.png)
+
 > [!IMPORTANT]
 > [Setup `zsh` config first](https://github.com/one-m1nd/prezto)
 
