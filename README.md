@@ -1,8 +1,7 @@
 # Dotfiles
 
 > [!IMPORTANT]
-> Setup `zsh` config first
-> [my prezto fork](https://github.com/one-m1nd/prezto)
+> [Setup `zsh` config first](https://github.com/one-m1nd/prezto)
 
 ---
 
