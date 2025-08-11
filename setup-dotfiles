@@ -29,4 +29,15 @@ ln -s .dotfiles/vim/.vimrc ./
 
 popd
 
+
+# === config that goes in ~/.local/share
+# Konsole doesn't like symlinks
+mkdir -p "$HOME/.local/share/color-schemes/"
+mkdir -p "$HOME/.local/share/konsole"
+
+cp local/share/color-schemes/GruvboxColors.colors "$HOME/.local/share/color-schemes/GruvboxColors.colors"
+cp local/share/konsole/xero.profile "$HOME/.local/share/konsole/xero.profile"
+cp local/share/konsole/Gruvbox.colorscheme "$HOME/.local/share/konsole/Gruvbox.colorscheme"
+
+
 echo "Setup complete ^_^"
