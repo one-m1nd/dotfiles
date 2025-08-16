@@ -17,6 +17,9 @@ cd "$HOME/.dotfiles"
 ./setup-dotfiles
 ```
 
+## local
+Mostly config for [konsole](https://konsole.kde.org/)
+
 ## ghosttty
 Config for [ghostty](https://ghostty.org/)
 
