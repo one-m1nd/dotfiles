@@ -33,4 +33,5 @@ git config
 vim config, powered via [vundle](https://github.com/VundleVim/Vundle.vim)
 
 ## TODO
-Manage symlinks with [stow](https://www.gnu.org/software/stow/manual/stow.html)
+1. Manage symlinks with [stow](https://www.gnu.org/software/stow/manual/stow.html)
+    * Work config with symlinks is not always a good idea 
