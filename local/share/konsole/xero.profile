@@ -1,6 +1,6 @@
 [Appearance]
 ColorScheme=Gruvbox
-Font=Fira Code,12,-1,5,50,0,0,0,0,0
+Font=FiraCode Nerd Font Mono,12,-1,5,57,0,0,0,0,0,Medium
 UseFontLineChararacters=true
 
 [General]
