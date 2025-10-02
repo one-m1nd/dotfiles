@@ -26,6 +26,7 @@ pushd "$HOME"
 ln -s .dotfiles/git/.gitconfig ./
 ln -s .dotfiles/git/.gitignore_global ./
 ln -s .dotfiles/vim/.vimrc ./
+ln -s .dotfiles/tig/.tigrc ./
 
 popd
 
