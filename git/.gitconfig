@@ -1,6 +1,6 @@
 [user]
-	name = Xero
-	email = vhector.1337@gmail.com
+	  name = Xero
+	  email = vhector.1337@gmail.com
 [pull]
     rebase = true
 [fetch]
@@ -8,19 +8,22 @@
 [core]
     editor = vim
     excludesfile = ~/.gitignore_global
+	  pager = diff-highlight | less
 [url "git@github.com:"]
-	insteadOf = "https://github.com/"
+	  insteadOf = "https://github.com/"
 [merge]
-        conflictstyle = zdiff3
+    conflictstyle = zdiff3
 [branch]
-        sort = -committerdate
+    sort = -committerdate
 [diff]
-        algorithm = histogram
+    algorithm = histogram
 [init]
-        defaultBranch = main
+    defaultBranch = main
 [transfer]
-        fsckobjects = true
+    fsckobjects = true
 [fetch]
-        fsckobjects = true
+    fsckobjects = true
 [receive]
-        fsckObjects = true
+    fsckObjects = true
+[interactive]
+	  difffilter = diff-highlight

@@ -17,6 +17,14 @@ cd "$HOME/.dotfiles"
 ./setup-dotfiles
 ```
 
+## diff-highlight
+1. Figure out where diff-highlight module is
+Fedora: `rpm -ql git | grep diff-highlight`
+Debian/Ubuntu/Mint: `dpkg -L git | grep diff-highlight`
+Archlinux: `pacman -Ql git | grep diff-highlight`
+2. cd to directory `sudo make`
+3. `cp diff-higlight ~/bin`
+
 ## local
 Mostly config for [konsole](https://konsole.kde.org/)
 
